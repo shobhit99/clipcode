@@ -1,4 +1,3 @@
-## One Liners
 ## Linux
 ```bash
 $ git clone github.com/shobhit99/clipcode
