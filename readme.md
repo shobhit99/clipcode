@@ -1,4 +1,5 @@
 [logo]: https://i.imgur.com/qvolQzy.png "Clipcode"
+[logo]
 ## Linux
 ```bash
 $ git clone github.com/shobhit99/clipcode
