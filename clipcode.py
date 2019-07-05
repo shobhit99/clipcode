@@ -65,7 +65,7 @@ def execute():
     variable.set(OPTIONS[0]) # default value
     w = OptionMenu(topframe, variable, *OPTIONS)
     w.pack(side=LEFT)
-    button = Button(topframe, text="Upload", command=lambda: E1.insert(0,"http://clipco.de/"+upload(var, variable.get())))
+    button = Button(topframe, text="Upload", command=lambda: E1.insert(0,"https://clipco.de/"+upload(var, variable.get())))
     button.pack(side=LEFT)
     E1 = Entry(bottomframe, width=25)
     E1.pack(side = LEFT, padx=5, pady=5)
