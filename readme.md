@@ -1,5 +1,10 @@
-![alt text][logo]
-[logo]: https://i.imgur.com/qvolQzy.png "Clipcode"
+<h1 align="center">
+  <br>
+  <a href="clipco.de"><img src="https://i.imgur.com/qvolQzy.png" alt="Clipcode"></a>
+  <br>
+  XSStrike
+  <br>
+</h1>
 ## Linux
 ```bash
 $ git clone github.com/shobhit99/clipcode
