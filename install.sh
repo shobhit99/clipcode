@@ -1,4 +1,4 @@
-python -V | grep "3.7" &>/dev/null
+python3.7 -V | grep "3.7" &>/dev/null
 if [ "$?" -eq "0" ]; then
 	python3.7 -m pip install -r requirements.txt
 	sudo cp clipcode.py /opt/clipcode
