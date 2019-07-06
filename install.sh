@@ -5,7 +5,7 @@ if [ "$?" -eq "0" ]; then
 	chmod 755 /opt/clipcode
 	sudo cp clipcode.desktop ~/.config/autostart/clipcode.desktop
 	/opt/clipcode &
-	echo "Clipcode Installed! Press Scroll-lock to open Upload dialoag"
+	echo "Clipcode Installed! Clipcode will start from the next reboot"
 else
 	echo "Clipcode requries python 3.7"
 fi
