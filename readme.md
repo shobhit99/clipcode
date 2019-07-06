@@ -4,7 +4,7 @@
 
 ## Usage
 + Select and Copy your code
-+ Hit Scroll Lock
++ Hit Insert button
 + Select Syntax Highlighting and Upload
 + Get Sharable link
 
