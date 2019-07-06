@@ -47,13 +47,10 @@ def upload(code, lang):
     return resp.text
 
 def execute():
-    var = pyperclip.paste()
     root = Tk()
     style = ttk.Style()
     style.theme_use(ui_theme)
     root.title("ClipCode")
-    screen_width = root.winfo_screenwidth()
-    screen_height = root.winfo_screenheight()
     root.lift()
     topframe = Frame(root)
     topframe.pack( padx=10, pady=10)
@@ -65,7 +62,7 @@ def execute():
     variable.set(OPTIONS[0]) # default value
     w = OptionMenu(topframe, variable, *OPTIONS)
     w.pack(side=LEFT)
-    button = Button(topframe, text="Upload", command=lambda: E1.insert(0,"https://clipco.de/"+upload(var, variable.get())))
+    button = Button(topframe, text="Upload", command=lambda: E1.insert(0,"https://clipco.de/"+upload(pyperclip.paste(), variable.get())))
     button.pack(side=LEFT)
     E1 = Entry(bottomframe, width=25)
     E1.pack(side = LEFT, padx=5, pady=5)
