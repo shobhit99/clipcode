@@ -28,7 +28,7 @@ OPTIONS = [
 ] 
 # Hotkey for execute()
 COMBINATIONS = [
-    {keyboard.Key.scroll_lock}
+    {keyboard.Key.insert}
 ]
 
 current = set()
