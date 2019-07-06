@@ -10,7 +10,7 @@
 
 ##  Linux
 ```bash
-$ git clone github.com/shobhit99/clipcode
+$ git clone https://github.com/shobhit99/clipcode
 $ cd clipcode
 $ chmod +x install.sh
 $ sudo ./install.sh
@@ -23,7 +23,7 @@ $ sudo ./install.sh
 
 ##  Windows
 ```powershell
-> git clone github.com/shobhit99/clipcode
+> git clone https://github.com/shobhit99/clipcode
 > cd clipcode
 > python3.7 -m pip install requirements.txt
 > python3.7 clipcode.py
