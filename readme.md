@@ -9,7 +9,7 @@
 + Get Sharable link
 
 <div>
-  <a href="https://marketplace.visualstudio.com/items?itemName=SmellyCharlie.clipcode"><img src="https://clipco.de/img/vs.png"></a><h4 align="center">Easiest way to share your code snippets</h4>
+  <a href="https://marketplace.visualstudio.com/items?itemName=SmellyCharlie.clipcode"><img src="https://clipco.de/img/vs.png">
 </div>
 
 ##  Linux
